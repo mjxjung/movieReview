@@ -1,0 +1,31 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.List .done {
+  font-weight: 800;
+  font-size: 15px;
+  color: rgb(6, 144, 15);
+}
+
+.List > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 15px 0px;
+  /* 위 아래만 여백 생기고 좌유 여백은 생기지 않는다 */
+}
+
+.List > input:focus {
+  outline: none;
+  /* 검색어 커서 올릴 때 주변 테두리 생기지 않게 */
+  border-bottom: 1px solid rgb(37, 147, 255);
+}
+
+.List .todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

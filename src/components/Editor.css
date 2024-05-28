@@ -1,0 +1,26 @@
+.Editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Editor input, .Editor textarea {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid rgb(220, 200, 220);
+  border-radius: 5px;
+}
+
+.Editor textarea {
+  resize: vertical; /* 사용자가 수직으로 크기 조절 가능 */
+}
+
+.Editor button {
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(83, 65, 185);
+}

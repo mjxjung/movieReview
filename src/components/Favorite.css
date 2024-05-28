@@ -1,0 +1,15 @@
+.Favorite .done {
+  font-weight: 800;
+  font-size: 15px;
+  color: rgb(6, 144, 15);
+  margin-bottom: 30px;
+}
+
+.Favorite {
+  margin-top: 20px;
+}
+
+.Favorite p {
+  text-align: center;
+  color: grey;
+}
