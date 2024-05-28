@@ -9,7 +9,7 @@ const List = ({ todos, onDelete, ontodoDone }) => {
   return (
     <div className="List">
       <h3>후기 모음 ✍️</h3>
-      <div className='done'>아카이브된 항목: {doneCount}</div>
+      <div className='done'>Favorite reviews: ({doneCount})</div>
 
       <div className="todos_wrapper">
         {todos.map(todo => (

@@ -8,7 +8,7 @@ const Favorite = ({ todos, onDelete, ontodoDone }) => {
 
   return (
     <div className="Favorite">
-      <div className='done'>아카이브된 항목: {doneCount}</div>
+      <div className='done'>Favorite reviews: ({doneCount})</div>
       {completedTodos.length > 0 ? (
         completedTodos.map(todo => (
           <Review
